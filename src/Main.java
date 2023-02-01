@@ -5,7 +5,6 @@ public class Main {
     public static void main(String[] args) throws Exception {
         String scan = new String();
         Scanner in = new Scanner(System.in);
-        System.out.print("Введи числа");
         scan = in.nextLine();
         in.close();
         System.out.println(calc(scan));
