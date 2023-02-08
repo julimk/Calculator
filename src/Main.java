@@ -38,7 +38,7 @@ public class Main {
             }
         }
         if ((a + b) == 1) throw new Exception();
-        if (Integer.parseInt(split[0]) > 10 || Integer.parseInt(split[2]) > 10)
+        if (Integer.parseInt(split[0]) > 10 || Integer.parseInt(split[2]) > 10||Integer.parseInt(split[0]) < 1 || Integer.parseInt(split[2]) < 1)
             throw new Exception();
 
         int result = 0;
